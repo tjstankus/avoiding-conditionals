@@ -1,6 +1,8 @@
 Resources
 =========
 
+- [ ] Update this doc with more comprehensive list of links
+
 Slides
 ------
 
@@ -23,3 +25,9 @@ Screencasts
 -----------
 
 - [Destroy All Software](https://www.destroyallsoftware.com/screencasts)
+
+
+Libraries
+---------
+
+- [izzy](https://github.com/baweaver/izzy)
