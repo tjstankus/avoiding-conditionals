@@ -1,6 +1,12 @@
 Resources
 =========
 
+Slides
+------
+
+[Google Presentation](http://goo.gl/dfCfAJ)
+
+
 Books
 -----
 
@@ -11,6 +17,7 @@ Books
 
 Articles
 --------
+
 
 Screencasts
 -----------
