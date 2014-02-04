@@ -18,7 +18,7 @@ end
 # over the place.
 #
 # This is because we've missed the abstraction. We need a PropertySite and a
-# ManagementSite.
+# ManagementSite, each of which implements the root route and other routes.
 #
 # The implementation could go in a number of different directions, middleware, a
 # router, etc. The main thing is that once we have identified and implemented
