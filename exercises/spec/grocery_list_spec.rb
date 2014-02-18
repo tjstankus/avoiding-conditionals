@@ -11,4 +11,12 @@ describe GroceryList do
     end
   end
 
+  describe '.initialize' do
+    it 'initializes with list of items' do
+      item = double('item')
+      groceries = GroceryList.new([item])
+      expect(groceries.items).to include(item)
+    end
+  end
+
 end

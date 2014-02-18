@@ -3,8 +3,7 @@ class GroceryList
   attr_reader :items
 
   def initialize(items)
-    # TODO: Refactor to remove the conditional
-    @items = items.nil? ? [] : items
+    @items = Array(items)
   end
 
   def add(item)
