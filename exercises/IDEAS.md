@@ -20,4 +20,6 @@ Null object
 
 - Example with composition, defaulting to some basic version of the object.
 
-- Build on
+- Build on GroceryList example. Print the first items when there is not any
+  items. Make Item an object with an attribute that might have a nil
+  attribute, like packaging.
