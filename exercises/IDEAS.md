@@ -9,3 +9,15 @@ Primitive obsession
   that we now have objects (hint: use area code for nearby implementation).
 
 - padded take
+
+Language constructs
+-------------------
+
+- `||` instead of nil check
+
+Null object
+-----------
+
+- Example with composition, defaulting to some basic version of the object.
+
+- Build on
