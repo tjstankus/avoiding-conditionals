@@ -21,12 +21,10 @@ describe GroceryList do
     end
 
     it 'calculates total cost' do
-      pending 'Implement without conditionals'
       expect(@groceries.total_cost).to eq(5.98)
     end
 
     it 'prints a list of items' do
-      pending 'Implement without conditionals'
       expected = "milk: $3.99\nbread: $1.99"
       expect(@groceries.to_s).to eq(expected)
     end
@@ -39,12 +37,10 @@ describe GroceryList do
     end
 
     it 'calculates total cost using 0 for nils' do
-      pending 'Implement without conditionals'
       expect(@groceries.total_cost).to eq(3.99)
     end
 
     it 'prints a list of items' do
-      pending 'Implement without conditionals'
       expected = "milk: $3.99\nUnknown item: $0.0"
       expect(@groceries.to_s).to eq(expected)
     end
