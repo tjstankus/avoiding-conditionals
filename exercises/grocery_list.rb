@@ -49,7 +49,7 @@ class GroceryList
   end
 
   def total_cost
-    # It would be better to use a Money object here, but don't
+    # It would be better to use a Money object here, but don't get sidetracked
     items.collect(&:price).inject(:+) / 100.0
   end
 
