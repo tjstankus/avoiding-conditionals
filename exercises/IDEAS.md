@@ -8,7 +8,7 @@ Primitive obsession
   Work towards object. Introduce 'nearby' feature that takes builds on the fact
   that we now have objects (hint: use area code for nearby implementation).
 
-- padded take
+- padded take, possibly build on the GroceryList example and use NullItems?
 
 Language constructs
 -------------------
@@ -23,3 +23,6 @@ Null object
 - Build on GroceryList example. Print the first items when there is not any
   items. Make Item an object with an attribute that might have a nil
   attribute, like packaging.
+
+- Can null objects be used to change various 'maybe' methods in AG to use a more
+  confident style?
