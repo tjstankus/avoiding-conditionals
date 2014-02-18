@@ -1,4 +1,4 @@
-# first is aliased to take
+# take returns the first n elements from arr
 arr = [1,2,3,4,5]
 arr.take(2) # => [1,2]
 
